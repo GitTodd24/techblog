@@ -1,0 +1,24 @@
+
+  <form class="form w-50 edit-form" data-id="{{id}}"> 
+     <div class="form-group">
+      <label for="project-name">Post Title:</label>
+    <div>{{name}}</div>
+    </div>
+    <br>
+    <div class="form-group">
+       <label for="project-desc"> Post Content:</label>
+    <div>{{description}}</div>
+    </div>
+    <p>Created by {{user.name}} on {{format_date date_created}}</p>
+    <p>
+     
+    </p>
+    <p>
+      <label for="project-desc"> Comment: </label>
+      <textarea name="" id="" class="form-input"> </textarea>
+      <button type="submit" class="btn btn-primary">Create  Comment</button>
+    </p>
+    </form>
+    
+
+  <script src= "/js/editPost.js"></script>
